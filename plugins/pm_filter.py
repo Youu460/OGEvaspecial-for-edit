@@ -717,8 +717,7 @@ async def auto_filter(client, msg):
             [InlineKeyboardButton(text="📃 1/1", callback_data="pages")]
         )
 
-    cap = f"Hey 👋🏻 {message.from_user.mention} 😍\n\n<blockquote>🍂 𝐌𝐨𝐯𝐢𝐞 𝐍𝐚𝐦𝐞 : {search}\n🗳️ 𝐓𝐨𝐭𝐚𝐥 
-𝐓𝐨𝐭𝐚𝐥 𝐏𝐚𝐠𝐞𝐬 : {crnt_pg}/{tot_pg}</blockquote>\n"  # result for group
+    cap = f"Hey 👋🏻 {message.from_user.mention} 😍\n\n<blockquote>🍂 𝐌𝐨𝐯𝐢𝐞 𝐍𝐚𝐦𝐞 : {search}\n🗳️ 𝐓𝐨𝐭𝐚𝐥 𝐓𝐨𝐭𝐚𝐥 𝐏𝐚𝐠𝐞𝐬 : {crnt_pg}/{tot_pg}</blockquote>\n"  # result for group
 
     # Send the message with the search results and buttons
     autodel = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
