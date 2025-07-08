@@ -349,12 +349,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 [
-                                    InlineKeyboardButton(f'🇮🇳 Mᴀʟ', 'fmal'),
-                                    InlineKeyboardButton(f'🇮🇳 Tᴀᴍ', 'ftam'),
-                                    InlineKeyboardButton(f'🇮🇳 Hɪɴ', 'fhin')
-                                ], [
                                 InlineKeyboardButton("📍 ᴄʜᴀɴɴᴇʟ 📍", url=(MAIN_CHANNEL))
-                            ]
+                                ]
                             ]
                         )
                     )
