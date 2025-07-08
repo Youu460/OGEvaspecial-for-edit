@@ -44,7 +44,7 @@ REQ_CHANNEL = environ.get("REQ_CHANNEL", '-1002846545977')
 REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
-FILE_FORWARD = environ.get('FILE_FORWARD',"")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/+KJHSwIdswKUwZjU1")
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', ''))
 
 # Others
