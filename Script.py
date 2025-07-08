@@ -28,6 +28,24 @@ You can find the bot commands here.
 2. make sure that your channel does not contains camrips, porn and fake files.
 3. Forward the last message to me with quotes.
  I'll add all the files in that channel to my db."""
+    FILE_MSG = """
+<b>Hai 👋 {} </b>😍
+
+<b>📫 Your File is Ready</b>
+
+<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>{}</code>              
+
+<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{}</b>
+"""
+    CHANNEL_CAP = """
+<b>Hai 👋 {}</b> 😍
+
+<code>{}</code>
+
+<b>Dᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ᴛʜᴇ ғɪʟᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ғʀᴏᴍ ʜᴇʀᴇ ɪɴ 10 ᴍɪɴᴜᴛᴇs sᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴀғᴛᴇʀ ᴍᴏᴠɪɴɢ ғʀᴏᴍ ʜᴇʀᴇ ᴛᴏ sᴏᴍᴇᴡʜᴇʀᴇ ᴇʟsᴇ!</b>
+
+<b>© Powered by {}</b>
+"""
     CONNECTION_TXT = """Help: <b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
